@@ -29,5 +29,7 @@ jobs:
     - run: npm ci
     - run: npm i -g @angular/cli
     - run: cd ./g-now/
+    - run: pwd
+    - run: ls
     - run: ng deploy --base-href=/weather/
     
