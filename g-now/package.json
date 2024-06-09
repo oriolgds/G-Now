@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "deploy": "ng deploy --base-href=/weather/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:g-now": "node dist/g-now/server/server.mjs"
